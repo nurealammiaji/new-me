@@ -85,3 +85,25 @@
 .plan{
     text-align: center;
 }
+
+
+/* Section Four Styles */
+
+.section-four{
+    margin: 0px 50px;
+    background-image: url(/images/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.section-four-info{
+    background-image: linear-gradient(navy, transparent);
+    padding: 25px;
+}
+
+.section-four-info h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}

@@ -159,3 +159,40 @@
     margin: 0px 10px;
 }
 
+
+/* Section Six or Footer Styles */
+
+.section-six{
+    background-color: black;
+    width: 100%;
+    height: 577px;
+}
+
+.section-six-contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 50px;
+    padding-top: 130px;
+}
+
+.footer-info{
+    color: white;
+    width: 50%;
+}
+
+.footer-subscribe{
+    width: 50%;
+    color: white;
+}
+
+.blue-btn{
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #005FAC;
+}

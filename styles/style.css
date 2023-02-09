@@ -7,7 +7,7 @@
 }
 
 
-/* Section One Styles */
+/* Section One or Header Styles */
 
 .section-one{
     background-image: url("../images/banner/banner3.png");
@@ -192,12 +192,17 @@
 }
 
 .footer-subscribe h4{
+    font-weight: 600px;
     font-size: 25px;
 }
 
 .email{
     width: 325px;
     height: 64px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
 }
 
 .blue-btn{

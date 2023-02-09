@@ -43,19 +43,22 @@
 /* Section Two Styles */
 
 .section-two{
+    margin: 0px 50px 50px 50px;
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    justify-content: space-evenly;
 }
 
 .section-two-image{
     max-width: 50%;
-    padding: 0px 50px;
+}
+
+.section-two-image img{
+    width: 100%;
 }
 
 .section-two-info{
     max-width: 50%;
-    padding: 0px 50px;
 }
 
 .section-two-info h2{
@@ -67,8 +70,7 @@
 /* Section Three Styles */
 
 .section-three{
-    padding: 0px 50px;
-    margin-bottom: 50px;
+    margin: 0px 50px 50px 50px;
 }
 
 .section-three h2{

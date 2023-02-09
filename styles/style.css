@@ -123,7 +123,12 @@
 
 .focus-contents{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.focus-contents hr{
+    border: 1px dotted royalblue;
+    border-radius: 50%;
 }
 
 .focus{
@@ -132,14 +137,25 @@
     align-items: center;
 }
 
-.focus-one{
-    background-image: linear-gradient(to top,skyblue, transparent);
+.focus h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px 0px;
 }
 
-.focus-two{
-    background-image: linear-gradient(to bottom,skyblue, transparent);
+.focus img{
+    width: 100%;
 }
 
-.focus-three{
-    background-image: linear-gradient(to top,skyblue, transparent);
+.focus-odd{
+    background-image: linear-gradient(to top,lightblue, transparent);
+    border-bottom: 15px solid royalblue;
+    margin: 0px 10px;
 }
+
+.focus-even{
+    background-image: linear-gradient(to bottom,lightblue, transparent);
+    border-top: 15px solid royalblue;
+    margin: 0px 10px;
+}
+

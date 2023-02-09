@@ -91,11 +91,10 @@
 /* Section Four Styles */
 
 .section-four{
-    margin: 0px 50px;
+    margin: 0px 50px 50px 50px;
     background-image: url("../images/flower.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
 }
 
 .section-four-info{
@@ -107,4 +106,40 @@
     font-weight: 700;
     font-size: 40px;
     color: white;
+}
+
+
+/* Section Five Styles */
+
+.section-five{
+    margin: 0px 50px 50px 50px;
+}
+
+.section-five h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.focus-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.focus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.focus-one{
+    background-image: linear-gradient(to top,skyblue, transparent);
+}
+
+.focus-two{
+    background-image: linear-gradient(to bottom,skyblue, transparent);
+}
+
+.focus-three{
+    background-image: linear-gradient(to top,skyblue, transparent);
 }

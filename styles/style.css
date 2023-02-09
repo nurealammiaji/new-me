@@ -99,7 +99,7 @@
 }
 
 .section-four-info{
-    background-image: linear-gradient(blue, transparent);
+    background-image: linear-gradient(to right,blue, transparent);
     padding: 25px;
 }
 
